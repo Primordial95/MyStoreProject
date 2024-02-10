@@ -4,3 +4,9 @@
 05:23:32.852 [main] INFO  - -------------------------verifyLogo TEST End ---------------------
 18:21:01.560 [main] INFO  - -------------------------End To End Test TEST START ---------------------
 18:21:01.564 [main] INFO  - click on signIn
+20:54:46.446 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+20:54:46.456 [main] INFO  - Verifying if the logo is present
+20:55:02.229 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+20:55:02.294 [main] INFO  - Verifying if the logo is present
+20:55:02.296 [main] INFO  - Logo is present
+20:55:02.296 [main] INFO  - -------------------------verifyLogo TEST End ---------------------
