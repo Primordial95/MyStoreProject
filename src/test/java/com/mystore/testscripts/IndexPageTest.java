@@ -13,19 +13,19 @@ public class IndexPageTest extends BaseClass {
 	private RegisterPage registerPage;
 	private LoginPage loginPage;
 
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke","Sanity","Regression"})
 	public void setup() {
 		loadActionDriver();
 		launchApp();
 		indexPage = new IndexPage();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
 
-	@Test
+	@Test(groups = "Smoke")
 	public void verifyLogo() {
 		Log.startTestCase("verifyLogo");
 		boolean result = indexPage.validateLogo();
@@ -35,7 +35,7 @@ public class IndexPageTest extends BaseClass {
 		Log.endTestCase("verifyLogo");
 	}
 
-	@Test
+	@Test(groups = "Smoke")
 	public void verifyTitle() {
 		Log.startTestCase("verifyTitle");
 		Log.info("Getting my Store Title");
@@ -46,7 +46,7 @@ public class IndexPageTest extends BaseClass {
 		Log.endTestCase("verifyTitle");
 	}
 
-	@Test
+	@Test(groups = "Smoke")
 	public void verifyRegisterUserBtn() {
 		Log.startTestCase("verifyRegisterUserBtn");
 		Log.info("clicking on Create an Account");
@@ -61,7 +61,7 @@ public class IndexPageTest extends BaseClass {
 		Log.endTestCase("verifyRegisterUserBtn");
 	}
 
-	@Test
+	@Test(groups = "Smoke")
 	public void verifySignInbtn() {
 		Log.startTestCase("verifySignInbtn");
 		Log.info("clicking on signin button");

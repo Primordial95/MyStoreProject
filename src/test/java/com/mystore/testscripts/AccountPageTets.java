@@ -15,14 +15,14 @@ public class AccountPageTets extends BaseClass {
 	private MyAccountPage myAccountPage;
 	private LoginPage loginPage;
 
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke","Sanity","Regression"})
 	public void setup() {
 		loadActionDriver();
 		launchApp();
 		indexPage = new IndexPage();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
@@ -33,7 +33,7 @@ public class AccountPageTets extends BaseClass {
 		myAccountPage = indexPage.goToAccountPage();
 	}
 
-	@Test
+	@Test(groups = {"Smoke","Sanity"})
 	public void verifyAccountPage() {
 		goToAccountPage();
 		String urlCurrent = myAccountPage.getCurrentUrl();
@@ -41,14 +41,14 @@ public class AccountPageTets extends BaseClass {
 		Assert.assertEquals(urlCurrent, urlExpected);
 	}
 
-	@Test
+	@Test(groups = {"Smoke","Sanity"})
 	public void verifyMyOrder() {
 		goToAccountPage();
 		Boolean result = myAccountPage.validateMyOrders();
 		Assert.assertTrue(result);
 	}
 
-	@Test
+	@Test(groups = {"Smoke","Sanity"})
 	public void verifyPaymentTab() {
 		goToAccountPage();
 		boolean result = myAccountPage.validateStoredPayment();

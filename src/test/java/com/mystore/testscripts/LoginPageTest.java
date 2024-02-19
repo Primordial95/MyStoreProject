@@ -15,19 +15,19 @@ public class LoginPageTest extends BaseClass {
 	private LoginPage loginPage;
 	private RegisterPage registerPage;
 
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke","Sanity","Regression"})
 	public void setup() {
 		loadActionDriver();
 		launchApp();
 		indexPage = new IndexPage();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
 
-	@Test
+	@Test(groups = {"Smoke","Sanity"})
 	public void loginTest() {
 		loginPage = indexPage.clickOnSignIn();
 		indexPage = loginPage.login(properties.getProperty("user"), properties.getProperty("pass"));
@@ -36,7 +36,7 @@ public class LoginPageTest extends BaseClass {
 		Assert.assertEquals(urlCurrent, urlExpec);
 	}
 
-	@Test
+	@Test(groups = "Smoke")
 	public void verifyNewAccount() {
 		loginPage = indexPage.clickOnSignIn();
 		registerPage = loginPage.createNewAccount();

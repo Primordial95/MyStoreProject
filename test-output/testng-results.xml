@@ -2,28 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-10T20:54:49 IST" name="Default suite" finished-at="2024-02-10T20:55:02 IST" duration-ms="12583">
+  <suite started-at="2024-02-19T20:13:12 IST" name="Default suite" finished-at="2024-02-19T20:13:38 IST" duration-ms="26075">
     <groups>
+      <group name="Regression">
+        <method signature="ReviewPaymentTest.validatePriceCalculations()[pri:0, instance:com.mystore.testscripts.ReviewPaymentTest@51399530]" name="validatePriceCalculations" class="com.mystore.testscripts.ReviewPaymentTest"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-02-10T20:54:49 IST" name="Default test" finished-at="2024-02-10T20:55:02 IST" duration-ms="12583">
-      <class name="com.mystore.testscripts.IndexPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testscripts.IndexPageTest@73a1e9a9]" started-at="2024-02-10T20:54:49 IST" name="loadConfig" finished-at="2024-02-10T20:54:49 IST" duration-ms="12" status="PASS">
+    <test started-at="2024-02-19T20:13:12 IST" name="Default test" finished-at="2024-02-19T20:13:38 IST" duration-ms="26075">
+      <class name="com.mystore.testscripts.ReviewPaymentTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testscripts.ReviewPaymentTest@51399530]" started-at="2024-02-19T20:13:12 IST" name="loadConfig" finished-at="2024-02-19T20:13:12 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testscripts.IndexPageTest@73a1e9a9]" started-at="2024-02-10T20:54:49 IST" name="setup" finished-at="2024-02-10T20:55:01 IST" duration-ms="11856" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testscripts.ReviewPaymentTest@51399530]" started-at="2024-02-19T20:13:12 IST" name="setup" finished-at="2024-02-19T20:13:17 IST" duration-ms="5312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogo()[pri:0, instance:com.mystore.testscripts.IndexPageTest@73a1e9a9]" started-at="2024-02-10T20:55:01 IST" name="verifyLogo" finished-at="2024-02-10T20:55:02 IST" duration-ms="534" status="PASS">
+        <test-method signature="validatePriceCalculations()[pri:0, instance:com.mystore.testscripts.ReviewPaymentTest@51399530]" started-at="2024-02-19T20:13:17 IST" name="validatePriceCalculations" finished-at="2024-02-19T20:13:38 IST" duration-ms="20542" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testscripts.IndexPageTest@73a1e9a9]" started-at="2024-02-10T20:55:02 IST" name="tearDown" finished-at="2024-02-10T20:55:02 IST" duration-ms="141" status="PASS">
+        </test-method> <!-- validatePriceCalculations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testscripts.ReviewPaymentTest@51399530]" started-at="2024-02-19T20:13:38 IST" name="tearDown" finished-at="2024-02-19T20:13:38 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mystore.testscripts.IndexPageTest -->
+      </class> <!-- com.mystore.testscripts.ReviewPaymentTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

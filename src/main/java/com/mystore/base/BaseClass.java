@@ -19,7 +19,7 @@ public class BaseClass {
 	public static ActionDriver actionDriver;
 
 
-	@BeforeTest
+	@BeforeSuite(groups = {"Smoke","Sanity","Regression"})
 	public void loadConfig() {
 		try {
 			properties = new Properties();
@@ -48,6 +48,7 @@ public class BaseClass {
 		} else if (browserName.contains("IE")) {
 			driver = new InternetExplorerDriver();
 		}
+		driver.manage().window().maximize();
 		driver.get(properties.getProperty("url"));
 		actionDriver = new ActionDriver();
 		actionDriver.implicitWait(driver, 10);

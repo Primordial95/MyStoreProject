@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.mystore.base.BaseClass;
+import com.mystore.dataprovider.DataProviders;
 import com.mystore.pageobjects.AddToCartPage;
 import com.mystore.pageobjects.CheckoutPage;
 import com.mystore.pageobjects.IndexPage;
@@ -24,41 +25,43 @@ public class EndToEndTest extends BaseClass {
 	private ReviewPaymentPage reviewPaymentPage;
 	private OrderConfirmationPage orderConfirmationPage;
 
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke","Sanity","Regression"})
 	public void setup() {
 		loadActionDriver();
 		launchApp();
 		indexPage = new IndexPage();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
+	
 
-	@Test
-	public void endToEndTest() {
+	@Test(dataProvider = "ProductSpec", dataProviderClass = DataProviders.class,groups = "Regression")
+	public void endToEndTest(String productName,String size,String colour,String quantity,String shipping) {
 		Log.startTestCase("End To End Test");
 		Log.info("click on signIn");
 		loginPage = indexPage.clickOnSignIn();
 		Log.info("Getting user and pass from properties");
 		indexPage = loginPage.login(properties.getProperty("user"), properties.getProperty("pass"));
+		actionDriver.fluentWaitElement(driver, 10, indexPage.getAdElement());
 		Log.info("Searching the Product");
-		searchResultPage = indexPage.searchProduct("shirt");
+		searchResultPage = indexPage.searchProduct(productName);
 		Log.info("Clicking on Desired Product");
 		addToCartPage = searchResultPage.clickOnProduct(1);
 		Log.info("Selecting size");
-		addToCartPage.selectSize(2);
+		addToCartPage.selectSize(Integer.parseInt(size));
 		Log.info("Selecting colour");
-		addToCartPage.selectColour(1);
+		addToCartPage.selectColour(Integer.parseInt(colour));
 		Log.info("Selecting quantity");
-		addToCartPage.selectQuantity("1");
+		addToCartPage.selectQuantity(quantity);
 		Log.info("Adding to Cart");
 		addToCartPage.clickOnAddToCart();
 		Log.info("Proceding to Checkout");
 		checkoutPage = addToCartPage.toCheckout();
 		Log.info("Choosing Shipping Rate");
-		checkoutPage.chooseShippingRate(2);
+		checkoutPage.chooseShippingRate(Integer.parseInt(shipping));
 		Log.info("Proceeding To Payments");
 		reviewPaymentPage = checkoutPage.proceedToPayments();
 		Log.info("Clicking On Place Order Button");

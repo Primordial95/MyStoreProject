@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Regression_Testing">
+		<groups>
+			<run>
+				<include name="Regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.mystore.testscripts.AddToCartPageTest" />
+			<class name="com.mystore.testscripts.ReviewPaymentTest" />
+			<class name="com.mystore.testscripts.CheckoutPageTest" />
+			<class name="com.mystore.testscripts.LoginPageTest" />
+			<class name="com.mystore.testscripts.SearchResultPageTest" />
+			<class name="com.mystore.testscripts.AccountPageTets" />
+			<class name="com.mystore.testscripts.EndToEndTest" />
+			<class name="com.mystore.testscripts.IndexPageTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

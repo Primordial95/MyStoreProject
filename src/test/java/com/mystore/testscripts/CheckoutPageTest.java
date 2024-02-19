@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.mystore.base.BaseClass;
+import com.mystore.dataprovider.DataProviders;
 import com.mystore.pageobjects.AddToCartPage;
 import com.mystore.pageobjects.CheckoutPage;
 import com.mystore.pageobjects.IndexPage;
@@ -21,30 +22,30 @@ public class CheckoutPageTest extends BaseClass {
 	private LoginPage loginPage;
 	private ReviewPaymentPage reviewPaymentPage;
 
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke","Sanity","Regression"})
 	public void setup() {
 		loadActionDriver();
 		launchApp();
 		indexPage = new IndexPage();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
 
-	@Test
-	public void toPaymentPage() {
+	@Test(dataProvider = "ProductSpec", dataProviderClass = DataProviders.class,groups = "Regression")
+	public void toPaymentPage(String productName,String size,String colour,String quantity,String shipping) {
 		loginPage = indexPage.clickOnSignIn();
 		indexPage = loginPage.login(properties.getProperty("user"), properties.getProperty("pass"));
-		searchResultPage = indexPage.searchProduct("shirt");
+		searchResultPage = indexPage.searchProduct(productName);
 		addToCartPage = searchResultPage.clickOnProduct(1);
-		addToCartPage.selectSize(2);
-		addToCartPage.selectColour(1);
-		addToCartPage.selectQuantity("2");
+		addToCartPage.selectSize(Integer.parseInt(size)); 
+		addToCartPage.selectColour(Integer.parseInt(colour));
+		addToCartPage.selectQuantity(quantity);
 		addToCartPage.clickOnAddToCart();
 		checkoutPage = addToCartPage.toCheckout();
-		checkoutPage.chooseShippingRate(2);
+		checkoutPage.chooseShippingRate(Integer.parseInt(shipping));
 		reviewPaymentPage = checkoutPage.proceedToPayments();
 		Assert.assertTrue(reviewPaymentPage.verfiyPaymentPage());
 	}

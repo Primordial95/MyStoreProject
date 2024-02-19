@@ -21,19 +21,19 @@ public class ReviewPaymentTest extends BaseClass {
 	private LoginPage loginPage;
 	private ReviewPaymentPage reviewPaymentPage;
 
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke","Sanity","Regression"})
 	public void setup() {
 		loadActionDriver();
 		launchApp();
 		indexPage = new IndexPage();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
 
-	@Test
+	@Test(groups = "Regression")
 	public void validatePriceCalculations() {
 		loginPage = indexPage.clickOnSignIn();
 		indexPage = loginPage.login(properties.getProperty("user"), properties.getProperty("pass"));

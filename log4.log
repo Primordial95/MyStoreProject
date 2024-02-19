@@ -10,3 +10,330 @@
 20:55:02.294 [main] INFO  - Verifying if the logo is present
 20:55:02.296 [main] INFO  - Logo is present
 20:55:02.296 [main] INFO  - -------------------------verifyLogo TEST End ---------------------
+12:35:42.973 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+12:35:42.976 [main] INFO  - click on signIn
+12:35:44.120 [main] INFO  - Getting user and pass from properties
+12:35:46.346 [main] INFO  - Searching the Product
+12:35:48.923 [main] INFO  - Clicking on Desired Product
+12:35:50.531 [main] INFO  - Selecting size
+12:35:50.626 [main] INFO  - Selecting colour
+12:35:50.721 [main] INFO  - Selecting quantity
+12:35:50.846 [main] INFO  - Adding to Cart
+12:35:51.034 [main] INFO  - Proceding to Checkout
+12:35:53.477 [main] INFO  - Choosing Shipping Rate
+12:36:02.121 [main] INFO  - Proceeding To Payments
+12:36:15.423 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+12:36:15.425 [main] INFO  - click on signIn
+12:36:16.625 [main] INFO  - Getting user and pass from properties
+12:36:19.086 [main] INFO  - Searching the Product
+12:36:20.894 [main] INFO  - Clicking on Desired Product
+12:36:22.307 [main] INFO  - Selecting size
+12:36:22.400 [main] INFO  - Selecting colour
+12:36:22.498 [main] INFO  - Selecting quantity
+12:36:22.621 [main] INFO  - Adding to Cart
+12:36:22.793 [main] INFO  - Proceding to Checkout
+12:36:26.582 [main] INFO  - Choosing Shipping Rate
+12:36:30.156 [main] INFO  - Proceeding To Payments
+12:36:30.376 [main] INFO  - Clicking On Place Order Button
+12:36:34.169 [main] INFO  - Validating Order Successfull message
+12:36:47.728 [main] INFO  - Validation Successfull
+12:36:47.728 [main] INFO  - -------------------------End To End Test TEST End ---------------------
+17:01:42.270 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:01:42.272 [main] INFO  - click on signIn
+17:01:43.949 [main] INFO  - Getting user and pass from properties
+17:01:46.574 [main] INFO  - Searching the Product
+17:01:48.322 [main] INFO  - Clicking on Desired Product
+17:01:50.085 [main] INFO  - Selecting size
+17:01:50.187 [main] INFO  - Selecting colour
+17:01:50.325 [main] INFO  - Selecting quantity
+17:01:50.451 [main] INFO  - Adding to Cart
+17:01:50.622 [main] INFO  - Proceding to Checkout
+17:01:54.877 [main] INFO  - Choosing Shipping Rate
+17:01:58.242 [main] INFO  - Proceeding To Payments
+17:01:58.400 [main] INFO  - Clicking On Place Order Button
+07:23:47.583 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+07:23:47.586 [main] INFO  - click on signIn
+07:23:48.814 [main] INFO  - Getting user and pass from properties
+07:23:51.324 [main] INFO  - Searching the Product
+07:23:53.938 [main] INFO  - Clicking on Desired Product
+07:23:55.782 [main] INFO  - Selecting size
+07:23:55.846 [main] INFO  - Selecting colour
+07:23:55.904 [main] INFO  - Selecting quantity
+07:23:56.053 [main] INFO  - Adding to Cart
+07:23:56.255 [main] INFO  - Proceding to Checkout
+07:24:00.186 [main] INFO  - Choosing Shipping Rate
+07:24:01.303 [main] INFO  - Proceeding To Payments
+16:02:28.631 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+16:02:28.634 [main] INFO  - click on signIn
+16:02:31.127 [main] INFO  - Getting user and pass from properties
+16:02:33.311 [main] INFO  - Searching the Product
+16:02:35.076 [main] INFO  - Clicking on Desired Product
+16:02:36.722 [main] INFO  - Selecting size
+16:02:36.799 [main] INFO  - Selecting colour
+16:02:36.877 [main] INFO  - Selecting quantity
+16:02:37.004 [main] INFO  - Adding to Cart
+16:02:37.179 [main] INFO  - Proceding to Checkout
+16:05:47.717 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+16:05:47.719 [main] INFO  - click on signIn
+16:05:49.004 [main] INFO  - Getting user and pass from properties
+16:05:51.645 [main] INFO  - Searching the Product
+16:05:52.792 [main] INFO  - Clicking on Desired Product
+16:16:11.012 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+16:16:11.015 [main] INFO  - click on signIn
+16:16:12.319 [main] INFO  - Getting user and pass from properties
+16:16:14.540 [main] INFO  - Searching the Product
+16:16:16.368 [main] INFO  - Clicking on Desired Product
+16:16:16.433 [main] INFO  - Selecting size
+16:16:16.437 [main] INFO  - Selecting colour
+16:16:16.441 [main] INFO  - Selecting quantity
+16:40:52.194 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+16:40:52.196 [main] INFO  - click on signIn
+16:40:53.468 [main] INFO  - Getting user and pass from properties
+16:40:55.765 [main] INFO  - Searching the Product
+16:40:57.418 [main] INFO  - Clicking on Desired Product
+16:40:59.316 [main] INFO  - Selecting size
+16:40:59.396 [main] INFO  - Selecting colour
+16:40:59.529 [main] INFO  - Selecting quantity
+16:40:59.650 [main] INFO  - Adding to Cart
+16:40:59.837 [main] INFO  - Proceding to Checkout
+16:41:03.495 [main] INFO  - Choosing Shipping Rate
+16:41:04.330 [main] INFO  - Proceeding To Payments
+16:42:14.578 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+16:42:14.581 [main] INFO  - click on signIn
+16:42:17.252 [main] INFO  - Getting user and pass from properties
+16:42:19.661 [main] INFO  - Searching the Product
+16:42:21.569 [main] INFO  - Clicking on Desired Product
+16:42:23.523 [main] INFO  - Selecting size
+16:42:23.622 [main] INFO  - Selecting colour
+16:42:23.766 [main] INFO  - Selecting quantity
+16:42:23.879 [main] INFO  - Adding to Cart
+16:42:24.066 [main] INFO  - Proceding to Checkout
+16:42:27.940 [main] INFO  - Choosing Shipping Rate
+16:42:31.582 [main] INFO  - Proceeding To Payments
+16:42:31.758 [main] INFO  - Clicking On Place Order Button
+16:44:50.248 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+16:44:50.251 [main] INFO  - click on signIn
+16:44:52.488 [main] INFO  - Getting user and pass from properties
+16:44:54.718 [main] INFO  - Searching the Product
+16:44:56.699 [main] INFO  - Clicking on Desired Product
+16:44:58.410 [main] INFO  - Selecting size
+16:44:58.477 [main] INFO  - Selecting colour
+16:44:58.537 [main] INFO  - Selecting quantity
+16:44:58.660 [main] INFO  - Adding to Cart
+16:44:58.872 [main] INFO  - Proceding to Checkout
+16:45:02.535 [main] INFO  - Choosing Shipping Rate
+16:45:08.473 [main] INFO  - Proceeding To Payments
+16:45:08.653 [main] INFO  - Clicking On Place Order Button
+16:45:12.757 [main] INFO  - Validating Order Successfull message
+16:45:25.901 [main] INFO  - Validation Successfull
+16:45:25.901 [main] INFO  - -------------------------End To End Test TEST End ---------------------
+17:09:21.490 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:09:21.493 [main] INFO  - click on signIn
+17:09:22.587 [main] INFO  - Getting user and pass from properties
+17:09:24.689 [main] INFO  - Searching the Product
+17:09:26.459 [main] INFO  - Clicking on Desired Product
+17:09:27.763 [main] INFO  - Selecting size
+17:09:28.058 [main] INFO  - Selecting colour
+17:09:28.121 [main] INFO  - Selecting quantity
+17:09:28.236 [main] INFO  - Adding to Cart
+17:09:28.382 [main] INFO  - Proceding to Checkout
+17:09:54.225 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+17:09:54.281 [main] INFO  - Verifying if the logo is present
+17:09:54.281 [main] INFO  - Logo is present
+17:09:54.282 [main] INFO  - -------------------------verifyLogo TEST End ---------------------
+17:10:00.446 [main] INFO  - -------------------------verifyRegisterUserBtn TEST START ---------------------
+17:10:00.447 [main] INFO  - clicking on Create an Account
+17:10:02.610 [main] INFO  - Getting current Url
+17:10:02.619 [main] INFO  - Verifying if the Url matches the Expected Url
+17:10:02.619 [main] INFO  - Matches the expected Url
+17:10:02.619 [main] INFO  - -------------------------verifyRegisterUserBtn TEST End ---------------------
+17:10:08.459 [main] INFO  - -------------------------verifySignInbtn TEST START ---------------------
+17:10:08.459 [main] INFO  - clicking on signin button
+17:10:09.541 [main] INFO  - getting current url
+17:10:09.592 [main] INFO  - Verifying if the url matches the expected url
+17:10:09.592 [main] INFO  - Match Success
+17:10:09.592 [main] INFO  - -------------------------verifySignInbtn TEST End ---------------------
+17:10:15.499 [main] INFO  - -------------------------verifyTitle TEST START ---------------------
+17:10:15.500 [main] INFO  - Getting my Store Title
+17:10:15.506 [main] INFO  - Verifying if StoreTitle is same as expected
+17:10:15.507 [main] INFO  - Verified Store Title
+17:10:15.507 [main] INFO  - -------------------------verifyTitle TEST End ---------------------
+17:13:46.917 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:13:46.920 [main] INFO  - click on signIn
+17:13:47.110 [main] INFO  - Getting user and pass from properties
+17:13:48.308 [main] INFO  - Searching the Product
+17:13:48.403 [main] INFO  - Clicking on Desired Product
+17:13:52.720 [main] INFO  - Selecting size
+17:13:53.022 [main] INFO  - Selecting colour
+17:13:53.338 [main] INFO  - Selecting quantity
+17:13:53.378 [main] INFO  - Adding to Cart
+17:14:06.213 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:14:06.216 [main] INFO  - click on signIn
+17:14:06.421 [main] INFO  - Getting user and pass from properties
+17:14:07.590 [main] INFO  - Searching the Product
+17:14:07.726 [main] INFO  - Clicking on Desired Product
+17:14:09.726 [main] INFO  - Selecting size
+17:14:10.340 [main] INFO  - Selecting colour
+17:14:10.616 [main] INFO  - Selecting quantity
+17:14:10.672 [main] INFO  - Adding to Cart
+17:14:54.973 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:14:54.976 [main] INFO  - click on signIn
+17:14:55.156 [main] INFO  - Getting user and pass from properties
+17:14:56.272 [main] INFO  - Searching the Product
+17:14:56.394 [main] INFO  - Clicking on Desired Product
+17:14:58.458 [main] INFO  - Selecting size
+17:14:59.054 [main] INFO  - Selecting colour
+17:14:59.314 [main] INFO  - Selecting quantity
+17:14:59.348 [main] INFO  - Adding to Cart
+17:14:59.499 [main] INFO  - Proceding to Checkout
+17:15:01.709 [main] INFO  - Choosing Shipping Rate
+17:15:01.725 [main] INFO  - Proceeding To Payments
+17:15:06.100 [main] INFO  - Clicking On Place Order Button
+17:15:27.505 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:15:27.507 [main] INFO  - click on signIn
+17:15:27.707 [main] INFO  - Getting user and pass from properties
+17:15:28.846 [main] INFO  - Searching the Product
+17:15:28.941 [main] INFO  - Clicking on Desired Product
+17:15:31.211 [main] INFO  - Selecting size
+17:15:32.062 [main] INFO  - Selecting colour
+17:15:32.296 [main] INFO  - Selecting quantity
+17:15:32.337 [main] INFO  - Adding to Cart
+17:15:32.483 [main] INFO  - Proceding to Checkout
+17:16:53.715 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:16:53.718 [main] INFO  - click on signIn
+17:16:53.945 [main] INFO  - Getting user and pass from properties
+17:16:55.157 [main] INFO  - Searching the Product
+17:16:55.252 [main] INFO  - Clicking on Desired Product
+17:16:57.357 [main] INFO  - Selecting size
+17:16:58.797 [main] INFO  - Selecting colour
+17:16:58.861 [main] INFO  - Selecting quantity
+17:19:11.383 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:19:11.386 [main] INFO  - click on signIn
+17:19:11.586 [main] INFO  - Getting user and pass from properties
+17:19:12.741 [main] INFO  - Searching the Product
+17:19:12.861 [main] INFO  - Clicking on Desired Product
+17:19:16.480 [main] INFO  - Selecting size
+17:19:16.806 [main] INFO  - Selecting colour
+17:19:17.517 [main] INFO  - Selecting quantity
+17:20:18.530 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:20:18.539 [main] INFO  - click on signIn
+17:20:19.740 [main] INFO  - Getting user and pass from properties
+17:20:22.076 [main] INFO  - Searching the Product
+17:20:23.828 [main] INFO  - Clicking on Desired Product
+17:20:25.703 [main] INFO  - Selecting size
+17:20:25.889 [main] INFO  - Selecting colour
+17:20:25.969 [main] INFO  - Selecting quantity
+17:20:26.093 [main] INFO  - Adding to Cart
+17:20:26.289 [main] INFO  - Proceding to Checkout
+17:20:29.960 [main] INFO  - Choosing Shipping Rate
+17:20:30.289 [main] INFO  - Proceeding To Payments
+17:24:22.069 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:24:22.072 [main] INFO  - click on signIn
+17:24:22.262 [main] INFO  - Getting user and pass from properties
+17:24:23.381 [main] INFO  - Searching the Product
+17:24:23.474 [main] INFO  - Clicking on Desired Product
+17:24:25.456 [main] INFO  - Selecting size
+17:24:26.349 [main] INFO  - Selecting colour
+17:24:26.574 [main] INFO  - Selecting quantity
+17:24:26.609 [main] INFO  - Adding to Cart
+17:24:26.758 [main] INFO  - Proceding to Checkout
+17:24:28.848 [main] INFO  - Choosing Shipping Rate
+17:24:28.884 [main] INFO  - Proceeding To Payments
+17:24:41.638 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:24:41.647 [main] INFO  - click on signIn
+17:24:41.839 [main] INFO  - Getting user and pass from properties
+17:24:43.005 [main] INFO  - Searching the Product
+17:24:43.093 [main] INFO  - Clicking on Desired Product
+17:24:45.052 [main] INFO  - Selecting size
+17:24:45.714 [main] INFO  - Selecting colour
+17:24:45.721 [main] INFO  - Selecting quantity
+17:32:28.665 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:32:28.667 [main] INFO  - click on signIn
+17:32:28.873 [main] INFO  - Getting user and pass from properties
+17:32:31.796 [main] INFO  - Searching the Product
+17:32:31.958 [main] INFO  - Clicking on Desired Product
+17:32:33.814 [main] INFO  - Selecting size
+17:32:34.680 [main] INFO  - Selecting colour
+17:32:34.938 [main] INFO  - Selecting quantity
+17:32:34.981 [main] INFO  - Adding to Cart
+17:32:35.122 [main] INFO  - Proceding to Checkout
+17:32:37.415 [main] INFO  - Choosing Shipping Rate
+17:32:37.428 [main] INFO  - Proceeding To Payments
+17:33:03.592 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:33:03.594 [main] INFO  - click on signIn
+17:33:04.753 [main] INFO  - Getting user and pass from properties
+17:33:07.344 [main] INFO  - Searching the Product
+17:33:07.806 [main] INFO  - Clicking on Desired Product
+17:35:32.879 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:35:32.881 [main] INFO  - click on signIn
+17:35:34.169 [main] INFO  - Getting user and pass from properties
+17:35:36.579 [main] INFO  - Searching the Product
+17:35:38.212 [main] INFO  - Clicking on Desired Product
+17:35:39.960 [main] INFO  - Selecting size
+17:35:40.037 [main] INFO  - Selecting colour
+17:35:40.105 [main] INFO  - Selecting quantity
+17:35:40.294 [main] INFO  - Adding to Cart
+17:35:40.469 [main] INFO  - Proceding to Checkout
+17:35:44.370 [main] INFO  - Choosing Shipping Rate
+17:35:47.806 [main] INFO  - Proceeding To Payments
+17:35:48.024 [main] INFO  - Clicking On Place Order Button
+17:35:51.687 [main] INFO  - Validating Order Successfull message
+17:36:05.146 [main] INFO  - Validation Successfull
+17:36:05.146 [main] INFO  - -------------------------End To End Test TEST End ---------------------
+17:36:11.367 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+17:36:11.414 [main] INFO  - Verifying if the logo is present
+17:36:11.414 [main] INFO  - Logo is present
+17:36:11.414 [main] INFO  - -------------------------verifyLogo TEST End ---------------------
+17:36:16.918 [main] INFO  - -------------------------verifyRegisterUserBtn TEST START ---------------------
+17:36:16.918 [main] INFO  - clicking on Create an Account
+17:36:18.206 [main] INFO  - Getting current Url
+17:36:18.254 [main] INFO  - Verifying if the Url matches the Expected Url
+17:36:18.254 [main] INFO  - Matches the expected Url
+17:36:18.254 [main] INFO  - -------------------------verifyRegisterUserBtn TEST End ---------------------
+17:36:24.797 [main] INFO  - -------------------------verifySignInbtn TEST START ---------------------
+17:36:24.797 [main] INFO  - clicking on signin button
+17:36:26.833 [main] INFO  - getting current url
+17:36:26.838 [main] INFO  - Verifying if the url matches the expected url
+17:36:26.838 [main] INFO  - Match Success
+17:36:26.838 [main] INFO  - -------------------------verifySignInbtn TEST End ---------------------
+17:36:32.086 [main] INFO  - -------------------------verifyTitle TEST START ---------------------
+17:36:32.087 [main] INFO  - Getting my Store Title
+17:36:32.100 [main] INFO  - Verifying if StoreTitle is same as expected
+17:36:32.100 [main] INFO  - Verified Store Title
+17:36:32.100 [main] INFO  - -------------------------verifyTitle TEST End ---------------------
+20:03:42.780 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+20:03:42.833 [main] INFO  - Verifying if the logo is present
+20:03:42.833 [main] INFO  - Logo is present
+20:03:42.833 [main] INFO  - -------------------------verifyLogo TEST End ---------------------
+20:03:48.206 [main] INFO  - -------------------------verifyRegisterUserBtn TEST START ---------------------
+20:03:48.206 [main] INFO  - clicking on Create an Account
+20:03:50.093 [main] INFO  - Getting current Url
+20:03:50.100 [main] INFO  - Verifying if the Url matches the Expected Url
+20:03:50.100 [main] INFO  - Matches the expected Url
+20:03:50.100 [main] INFO  - -------------------------verifyRegisterUserBtn TEST End ---------------------
+20:03:55.393 [main] INFO  - -------------------------verifySignInbtn TEST START ---------------------
+20:03:55.393 [main] INFO  - clicking on signin button
+20:03:56.463 [main] INFO  - getting current url
+20:03:56.510 [main] INFO  - Verifying if the url matches the expected url
+20:03:56.510 [main] INFO  - Match Success
+20:03:56.511 [main] INFO  - -------------------------verifySignInbtn TEST End ---------------------
+20:04:01.343 [main] INFO  - -------------------------verifyTitle TEST START ---------------------
+20:04:01.343 [main] INFO  - Getting my Store Title
+20:04:01.380 [main] INFO  - Verifying if StoreTitle is same as expected
+20:04:01.381 [main] INFO  - Verified Store Title
+20:04:01.381 [main] INFO  - -------------------------verifyTitle TEST End ---------------------
+20:07:57.250 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+20:07:57.253 [main] INFO  - click on signIn
+20:07:58.319 [main] INFO  - Getting user and pass from properties
+20:08:00.756 [main] INFO  - Searching the Product
+20:08:02.368 [main] INFO  - Clicking on Desired Product
+20:08:04.160 [main] INFO  - Selecting size
+20:08:04.242 [main] INFO  - Selecting colour
+20:08:04.303 [main] INFO  - Selecting quantity
+20:08:04.423 [main] INFO  - Adding to Cart
+20:08:04.630 [main] INFO  - Proceding to Checkout
+20:08:08.244 [main] INFO  - Choosing Shipping Rate
+20:08:12.303 [main] INFO  - Proceeding To Payments
+20:08:12.469 [main] INFO  - Clicking On Place Order Button
+20:10:45.848 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+20:10:45.850 [main] INFO  - click on signIn

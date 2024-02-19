@@ -13,26 +13,26 @@ public class SearchResultPageTest extends BaseClass {
 	private IndexPage indexPage;
 	private SearchResultPage searchResultPage;
 
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke","Sanity","Regression"})
 	public void setup() {
 		loadActionDriver();
 		launchApp();
 		indexPage = new IndexPage();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
 
-	@Test
+	@Test(groups = "Smoke")
 	public void checkProductAvailability() {
 		searchResultPage = indexPage.searchProduct("shirt");
 		boolean result = searchResultPage.isProductAvailable();
 		Assert.assertTrue(result);
 	}
 
-	@Test
+	@Test(groups = {"Smoke","Sanity"})
 	public void checkNoOfProduct() {
 		searchResultPage = indexPage.searchProduct("shirt");
 		System.out.println(searchResultPage.noOfProducts());

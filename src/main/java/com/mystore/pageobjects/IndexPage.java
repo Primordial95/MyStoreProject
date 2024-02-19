@@ -7,9 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.mystore.base.BaseClass;
 
 public class IndexPage extends BaseClass {
-	
-	
-	
+
 	@FindBy(xpath = "//a[@class='logo']//img")
 	private WebElement myStoreLogo;
 
@@ -18,6 +16,9 @@ public class IndexPage extends BaseClass {
 
 	@FindBy(xpath = "//a[contains(text(),'Sign In')]")
 	private WebElement signinBtn;
+
+	@FindBy(xpath = "//a[@class='block-promo home-main']")
+	private WebElement adElement;
 
 	@FindBy(id = "search")
 	private WebElement searchBox;
@@ -30,7 +31,7 @@ public class IndexPage extends BaseClass {
 
 	@FindBy(xpath = "//button[@class='action switch']")
 	private WebElement downBtn;
-	
+
 	@FindBy(xpath = "//a[text()='My Account']")
 	private WebElement accountBtn;
 
@@ -62,17 +63,19 @@ public class IndexPage extends BaseClass {
 		return new RegisterPage();
 	}
 
-	public MyAccountPage goToAccountPage()
-	{
+	public MyAccountPage goToAccountPage() {
 		actionDriver.fluentWaitElement(driver, 10, loginCheckElement);
 		if (actionDriver.isDisplayed(loginCheckElement)) {
 			actionDriver.click(driver, downBtn);
 			actionDriver.click(driver, accountBtn);
 			return new MyAccountPage();
-		}
-		else {
+		} else {
 			return null;
 		}
+	}
+
+	public WebElement getAdElement() {
+			return adElement;
 	}
 
 	public String getCurrentUrl() {

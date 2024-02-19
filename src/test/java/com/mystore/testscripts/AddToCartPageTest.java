@@ -17,18 +17,19 @@ public class AddToCartPageTest extends BaseClass {
 	private AddToCartPage addToCartPage;
 	private CheckoutPage checkoutPage;
 
-	@BeforeMethod
+	@BeforeMethod(groups = {"Smoke","Sanity","Regression"})
 	public void setup() {
 		loadActionDriver();
 		launchApp();
 		indexPage = new IndexPage();
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		driver.quit();
 	}
-
+	
+	
 	private void intialsetup() {
 		searchResultPage = indexPage.searchProduct("shirt");
 		addToCartPage = searchResultPage.clickOnProduct(1);
@@ -38,14 +39,14 @@ public class AddToCartPageTest extends BaseClass {
 		addToCartPage.clickOnAddToCart();
 	}
 
-	@Test
+	@Test(groups = {"Regression","Sanity"})
 	public void addCartTest() {
 		intialsetup();
 		boolean result = addToCartPage.validateAddedToCart();
 		Assert.assertTrue(result);
 	}
 
-	@Test
+	@Test(groups = {"Regression","Sanity"})
 	public void navigateToCheckoutPageTest() {
 		intialsetup();
 		checkoutPage = addToCartPage.toCheckout();
