@@ -57,6 +57,10 @@ public class AddToCartPage extends BaseClass {
 		return actionDriver.isDisplayed(addedToCartMessage);
 	}
 
+	public WebElement getAddedToCartMessage() {
+		return addedToCartMessage;
+	}
+
 	public CheckoutPage toCheckout() {
 		actionDriver.fluentWaitElement(driver, 10, addedToCartMessage);
 		actionDriver.click(driver, cartBtn);

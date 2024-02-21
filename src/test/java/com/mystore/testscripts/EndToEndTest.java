@@ -25,21 +25,20 @@ public class EndToEndTest extends BaseClass {
 	private ReviewPaymentPage reviewPaymentPage;
 	private OrderConfirmationPage orderConfirmationPage;
 
-	@BeforeMethod(groups = {"Smoke","Sanity","Regression"})
+	@BeforeMethod(groups = { "Smoke", "Sanity", "Regression" })
 	public void setup() {
 		loadActionDriver();
 		launchApp();
 		indexPage = new IndexPage();
 	}
 
-	@AfterMethod(groups = {"Smoke","Sanity","Regression"})
+	@AfterMethod(groups = { "Smoke", "Sanity", "Regression" })
 	public void tearDown() {
 		driver.quit();
 	}
-	
 
-	@Test(dataProvider = "ProductSpec", dataProviderClass = DataProviders.class,groups = "Regression")
-	public void endToEndTest(String productName,String size,String colour,String quantity,String shipping) {
+	@Test(dataProvider = "ProductSpec", dataProviderClass = DataProviders.class, groups = "Regression")
+	public void endToEndTest(String productName, String size, String colour, String quantity, String shipping) {
 		Log.startTestCase("End To End Test");
 		Log.info("click on signIn");
 		loginPage = indexPage.clickOnSignIn();

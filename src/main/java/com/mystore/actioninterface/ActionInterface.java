@@ -64,7 +64,7 @@ public interface ActionInterface {
 
 	public String currentTime();
 
-	public void screenShot(WebDriver driver, String filename);
+	public String screenShot(WebDriver driver, String filename);
 
 	public int productsOnSearch(List<WebElement> products);
 

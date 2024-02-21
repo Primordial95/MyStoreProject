@@ -3,14 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mystore.testscripts.EndToEndTest">
+      <class name="com.mystore.testscripts.AccountPageTets">
         <methods>
-          <include name="tearDown"/>
           <include name="loadConfig"/>
-          <include name="endToEndTest" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="verifyMyOrder"/>
+          <include name="verifyPaymentTab"/>
           <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.mystore.testscripts.EndToEndTest -->
+      </class> <!-- com.mystore.testscripts.AccountPageTets -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

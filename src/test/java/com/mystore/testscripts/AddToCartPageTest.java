@@ -49,6 +49,7 @@ public class AddToCartPageTest extends BaseClass {
 	@Test(groups = {"Regression","Sanity"})
 	public void navigateToCheckoutPageTest() {
 		intialsetup();
+		actionDriver.fluentWaitElement(driver, 10, addToCartPage.getAddedToCartMessage());
 		checkoutPage = addToCartPage.toCheckout();
 		Assert.assertTrue(checkoutPage.verifyCheckoutPage());
 	}

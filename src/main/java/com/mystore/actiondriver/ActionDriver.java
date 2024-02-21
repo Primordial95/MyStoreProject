@@ -407,15 +407,17 @@ public class ActionDriver extends BaseClass implements ActionInterface {
 	}
 
 	@Override
-	public void screenShot(WebDriver driver, String filename) {
+	public String screenShot(WebDriver driver, String filename) {
+		String desPath =".\\Screenshots\\" + currentTime() + filename + ".png";
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
-		File des = new File(".\\Screenshots\\" + currentTime() + filename + ".png");
+		File des = new File(desPath);
 		try {
 			FileUtils.copyFile(src, des);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		return desPath;
 	}
 
 	@Override
