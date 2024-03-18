@@ -10,7 +10,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
+import com.beust.jcommander.Parameter;
 import com.mystore.actiondriver.ActionDriver;
 import com.mystore.utility.ExtentManager;
 
@@ -43,7 +45,7 @@ public class BaseClass {
 		}
 		return actionDriver;
 	}
-
+	
 	public void launchApp() {
 		String browserName = properties.getProperty("browser");
 		if (browserName.contains("chrome")) {

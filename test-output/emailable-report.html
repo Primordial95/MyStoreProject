@@ -8,75 +8,14 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">359,067</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">34,970</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.mystore.testscripts.AccountPageTets</td><td><a href="#m0">verifyAccountPage</a></td><td rowspan="1">1708498565587</td><td rowspan="1">3505</td></tr><tr class="failedeven"><td><a href="#m1">verifyMyOrder</a></td><td rowspan="1">1708498575856</td><td rowspan="1">4874</td></tr><tr class="failedeven"><td><a href="#m2">verifyPaymentTab</a></td><td rowspan="1">1708498606207</td><td rowspan="1">15792</td></tr><tr class="failedodd"><td rowspan="1">com.mystore.testscripts.LoginPageTest</td><td><a href="#m3">verifyNewAccount</a></td><td rowspan="1">1708498533679</td><td rowspan="1">10185</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.mystore.testscripts.AddToCartPageTest</td><td><a href="#m4">addCartTest</a></td><td rowspan="1">1708498343705</td><td rowspan="1">6788</td></tr><tr class="passedeven"><td><a href="#m5">navigateToCheckoutPageTest</a></td><td rowspan="1">1708498356452</td><td rowspan="1">10222</td></tr><tr class="passedodd"><td rowspan="1">com.mystore.testscripts.CheckoutPageTest</td><td><a href="#m6">toPaymentPage</a></td><td rowspan="1">1708498400152</td><td rowspan="1">22906</td></tr><tr class="passedeven"><td rowspan="1">com.mystore.testscripts.EndToEndTest</td><td><a href="#m7">endToEndTest</a></td><td rowspan="1">1708498628825</td><td rowspan="1">38216</td></tr><tr class="passedodd"><td rowspan="4">com.mystore.testscripts.IndexPageTest</td><td><a href="#m8">verifyLogo</a></td><td rowspan="1">1708498673621</td><td rowspan="1">55</td></tr><tr class="passedodd"><td><a href="#m9">verifyRegisterUserBtn</a></td><td rowspan="1">1708498679883</td><td rowspan="1">2847</td></tr><tr class="passedodd"><td><a href="#m10">verifySignInbtn</a></td><td rowspan="1">1708498688146</td><td rowspan="1">1192</td></tr><tr class="passedodd"><td><a href="#m11">verifyTitle</a></td><td rowspan="1">1708498695490</td><td rowspan="1">7</td></tr><tr class="passedeven"><td rowspan="1">com.mystore.testscripts.LoginPageTest</td><td><a href="#m12">loginTest</a></td><td rowspan="1">1708498429148</td><td rowspan="1">3450</td></tr><tr class="passedodd"><td rowspan="1">com.mystore.testscripts.ReviewPaymentTest</td><td><a href="#m13">validatePriceCalculations</a></td><td rowspan="1">1708498374149</td><td rowspan="1">19352</td></tr><tr class="passedeven"><td rowspan="2">com.mystore.testscripts.SearchResultPageTest</td><td><a href="#m14">checkNoOfProduct</a></td><td rowspan="1">1708498549321</td><td rowspan="1">1991</td></tr><tr class="passedeven"><td><a href="#m15">checkProductAvailability</a></td><td rowspan="1">1708498557907</td><td rowspan="1">1807</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.mystore.testscripts.IndexPageTest</td><td><a href="#m0">verifyLogo</a></td><td rowspan="1">1710586748809</td><td rowspan="1">417</td></tr><tr class="passedeven"><td><a href="#m1">verifyRegisterUserBtn</a></td><td rowspan="1">1710586757728</td><td rowspan="1">1655</td></tr><tr class="passedeven"><td><a href="#m2">verifySignInbtn</a></td><td rowspan="1">1710586767464</td><td rowspan="1">1766</td></tr><tr class="passedeven"><td><a href="#m3">verifyTitle</a></td><td rowspan="1">1710586776390</td><td rowspan="1">10</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.mystore.testscripts.AccountPageTets#verifyAccountPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;com.mystore.pageobjects.MyAccountPage.getCurrentUrl()&quot; because &quot;this.myAccountPage&quot; is null
-	at com.mystore.testscripts.AccountPageTets.verifyAccountPage(AccountPageTets.java:39)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.mystore.testscripts.AccountPageTets#verifyMyOrder</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;com.mystore.pageobjects.MyAccountPage.validateMyOrders()&quot; because &quot;this.myAccountPage&quot; is null
-	at com.mystore.testscripts.AccountPageTets.verifyMyOrder(AccountPageTets.java:47)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.mystore.testscripts.AccountPageTets#verifyPaymentTab</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=121.0.6167.187)
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a39936f3c5a9472e2aa6bd1b785cf1af, actions {actions=[org.openqa.selenium.interactions.Sequence@24615687]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.187, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\vivek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52580}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52580/devtoo..., se:cdpVersion: 121.0.6167.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a39936f3c5a9472e2aa6bd1b785cf1af
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
-	at com.mystore.actiondriver.ActionDriver.click(ActionDriver.java:38)
-	at com.mystore.pageobjects.LoginPage.login(LoginPage.java:32)
-	at com.mystore.testscripts.AccountPageTets.goToAccountPage(AccountPageTets.java:32)
-	at com.mystore.testscripts.AccountPageTets.verifyPaymentTab(AccountPageTets.java:53)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.mystore.testscripts.LoginPageTest#verifyNewAccount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=121.0.6167.187)
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [88a4d0fe0531886192e142391ef666a8, actions {actions=[org.openqa.selenium.interactions.Sequence@4e4395c]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.187, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\vivek\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52391}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52391/devtoo..., se:cdpVersion: 121.0.6167.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 88a4d0fe0531886192e142391ef666a8
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
-	at com.mystore.actiondriver.ActionDriver.click(ActionDriver.java:38)
-	at com.mystore.pageobjects.IndexPage.clickOnSignIn(IndexPage.java:43)
-	at com.mystore.testscripts.LoginPageTest.verifyNewAccount(LoginPageTest.java:41)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.mystore.testscripts.AddToCartPageTest#addCartTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.mystore.testscripts.AddToCartPageTest#navigateToCheckoutPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.mystore.testscripts.CheckoutPageTest#toPaymentPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>shirt</td><td>3</td><td>1</td><td>1</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.mystore.testscripts.EndToEndTest#endToEndTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>shirt</td><td>3</td><td>1</td><td>1</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.mystore.testscripts.IndexPageTest#verifyLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.mystore.testscripts.IndexPageTest#verifyRegisterUserBtn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.mystore.testscripts.IndexPageTest#verifySignInbtn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.mystore.testscripts.IndexPageTest#verifyTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">com.mystore.testscripts.LoginPageTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">com.mystore.testscripts.ReviewPaymentTest#validatePriceCalculations</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">com.mystore.testscripts.SearchResultPageTest#checkNoOfProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">com.mystore.testscripts.SearchResultPageTest#checkProductAvailability</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.mystore.testscripts.IndexPageTest#verifyLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.mystore.testscripts.IndexPageTest#verifyRegisterUserBtn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.mystore.testscripts.IndexPageTest#verifySignInbtn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.mystore.testscripts.IndexPageTest#verifyTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -834,3 +834,178 @@
 12:39:20.438 [main] INFO  - Verifying if StoreTitle is same as expected
 12:39:20.438 [main] INFO  - Verified Store Title
 12:39:20.438 [main] INFO  - -------------------------verifyTitle TEST End ---------------------
+11:34:18.562 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+11:34:18.786 [main] INFO  - Verifying if the logo is present
+11:34:18.789 [main] INFO  - Logo is present
+11:34:18.789 [main] INFO  - -------------------------verifyLogo TEST End ---------------------
+11:34:24.476 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+11:34:24.495 [main] INFO  - Verifying if the logo is present
+11:35:03.977 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+11:35:03.991 [main] INFO  - Verifying if the logo is present
+11:35:06.377 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+11:35:06.416 [main] INFO  - Verifying if the logo is present
+11:47:11.299 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+11:47:11.339 [main] INFO  - Verifying if the logo is present
+16:25:44.780 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+16:25:44.870 [main] INFO  - Verifying if the logo is present
+16:25:44.873 [main] INFO  - Logo is present
+16:25:44.873 [main] INFO  - -------------------------verifyLogo TEST End ---------------------
+16:25:54.169 [main] INFO  - -------------------------verifyRegisterUserBtn TEST START ---------------------
+16:25:54.169 [main] INFO  - clicking on Create an Account
+16:25:57.890 [main] INFO  - Getting current Url
+16:25:57.911 [main] INFO  - Verifying if the Url matches the Expected Url
+16:25:57.911 [main] INFO  - Matches the expected Url
+16:25:57.912 [main] INFO  - -------------------------verifyRegisterUserBtn TEST End ---------------------
+16:26:06.027 [main] INFO  - -------------------------verifySignInbtn TEST START ---------------------
+16:26:06.027 [main] INFO  - clicking on signin button
+16:26:07.057 [main] INFO  - getting current url
+16:26:07.109 [main] INFO  - Verifying if the url matches the expected url
+16:26:07.109 [main] INFO  - Match Success
+16:26:07.109 [main] INFO  - -------------------------verifySignInbtn TEST End ---------------------
+16:26:13.915 [main] INFO  - -------------------------verifyTitle TEST START ---------------------
+16:26:13.915 [main] INFO  - Getting my Store Title
+16:26:13.921 [main] INFO  - Verifying if StoreTitle is same as expected
+16:26:13.921 [main] INFO  - Verified Store Title
+16:26:13.921 [main] INFO  - -------------------------verifyTitle TEST End ---------------------
+16:19:14.706 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+16:19:14.709 [main] INFO  - click on signIn
+16:19:16.428 [main] INFO  - Getting user and pass from properties
+16:19:18.779 [main] INFO  - Searching the Product
+16:19:20.362 [main] INFO  - Clicking on Desired Product
+16:19:21.844 [main] INFO  - Selecting size
+16:19:21.912 [main] INFO  - Selecting colour
+16:19:22.014 [main] INFO  - Selecting quantity
+16:19:22.129 [main] INFO  - Adding to Cart
+16:19:22.300 [main] INFO  - Proceding to Checkout
+16:19:26.124 [main] INFO  - Choosing Shipping Rate
+16:19:31.283 [main] INFO  - Proceeding To Payments
+16:19:31.443 [main] INFO  - Clicking On Place Order Button
+16:19:36.008 [main] INFO  - Validating Order Successfull message
+16:19:49.267 [main] INFO  - Validation Successfull
+16:19:49.267 [main] INFO  - -------------------------End To End Test TEST End ---------------------
+16:19:56.480 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+16:19:56.539 [main] INFO  - Verifying if the logo is present
+16:19:56.539 [main] INFO  - Logo is present
+16:19:56.539 [main] INFO  - -------------------------verifyLogo TEST End ---------------------
+16:20:05.099 [main] INFO  - -------------------------verifyRegisterUserBtn TEST START ---------------------
+16:20:05.099 [main] INFO  - clicking on Create an Account
+16:20:06.325 [main] INFO  - Getting current Url
+16:20:06.367 [main] INFO  - Verifying if the Url matches the Expected Url
+16:20:06.368 [main] INFO  - Matches the expected Url
+16:20:06.368 [main] INFO  - -------------------------verifyRegisterUserBtn TEST End ---------------------
+16:20:13.215 [main] INFO  - -------------------------verifySignInbtn TEST START ---------------------
+16:20:13.215 [main] INFO  - clicking on signin button
+16:20:14.295 [main] INFO  - getting current url
+16:20:14.335 [main] INFO  - Verifying if the url matches the expected url
+16:20:14.335 [main] INFO  - Match Success
+16:20:14.335 [main] INFO  - -------------------------verifySignInbtn TEST End ---------------------
+16:20:22.165 [main] INFO  - -------------------------verifyTitle TEST START ---------------------
+16:20:22.166 [main] INFO  - Getting my Store Title
+16:20:22.173 [main] INFO  - Verifying if StoreTitle is same as expected
+16:20:22.173 [main] INFO  - Verified Store Title
+16:20:22.173 [main] INFO  - -------------------------verifyTitle TEST End ---------------------
+16:23:34.425 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+16:23:34.428 [main] INFO  - click on signIn
+16:23:35.487 [main] INFO  - Getting user and pass from properties
+16:23:37.588 [main] INFO  - Searching the Product
+16:23:39.200 [main] INFO  - Clicking on Desired Product
+16:23:40.282 [main] INFO  - Selecting size
+16:23:40.516 [main] INFO  - Selecting colour
+16:23:40.572 [main] INFO  - Selecting quantity
+16:23:40.694 [main] INFO  - Adding to Cart
+16:23:40.844 [main] INFO  - Proceding to Checkout
+16:24:08.043 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+16:24:08.101 [main] INFO  - Verifying if the logo is present
+16:24:08.101 [main] INFO  - Logo is present
+16:24:08.101 [main] INFO  - -------------------------verifyLogo TEST End ---------------------
+16:24:17.579 [main] INFO  - -------------------------verifyRegisterUserBtn TEST START ---------------------
+16:24:17.579 [main] INFO  - clicking on Create an Account
+16:24:20.225 [main] INFO  - Getting current Url
+16:24:20.232 [main] INFO  - Verifying if the Url matches the Expected Url
+16:24:20.232 [main] INFO  - Matches the expected Url
+16:24:20.232 [main] INFO  - -------------------------verifyRegisterUserBtn TEST End ---------------------
+16:24:27.752 [main] INFO  - -------------------------verifySignInbtn TEST START ---------------------
+16:24:27.752 [main] INFO  - clicking on signin button
+16:24:28.799 [main] INFO  - getting current url
+16:24:28.841 [main] INFO  - Verifying if the url matches the expected url
+16:24:28.841 [main] INFO  - Match Success
+16:24:28.841 [main] INFO  - -------------------------verifySignInbtn TEST End ---------------------
+16:24:35.393 [main] INFO  - -------------------------verifyTitle TEST START ---------------------
+16:24:35.393 [main] INFO  - Getting my Store Title
+16:24:35.400 [main] INFO  - Verifying if StoreTitle is same as expected
+16:24:35.400 [main] INFO  - Verified Store Title
+16:24:35.400 [main] INFO  - -------------------------verifyTitle TEST End ---------------------
+16:58:00.660 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+16:58:00.662 [main] INFO  - click on signIn
+16:58:01.751 [main] INFO  - Getting user and pass from properties
+16:58:04.336 [main] INFO  - Searching the Product
+16:58:06.172 [main] INFO  - Clicking on Desired Product
+16:58:08.331 [main] INFO  - Selecting size
+16:58:08.431 [main] INFO  - Selecting colour
+16:58:08.502 [main] INFO  - Selecting quantity
+16:58:08.621 [main] INFO  - Adding to Cart
+16:58:08.836 [main] INFO  - Proceding to Checkout
+16:58:12.779 [main] INFO  - Choosing Shipping Rate
+16:58:16.565 [main] INFO  - Proceeding To Payments
+16:58:16.734 [main] INFO  - Clicking On Place Order Button
+16:58:20.372 [main] INFO  - Validating Order Successfull message
+16:58:33.590 [main] INFO  - Validation Successfull
+16:58:33.590 [main] INFO  - -------------------------End To End Test TEST End ---------------------
+16:58:41.828 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+16:58:41.888 [main] INFO  - Verifying if the logo is present
+16:58:41.888 [main] INFO  - Logo is present
+16:58:41.888 [main] INFO  - -------------------------verifyLogo TEST End ---------------------
+16:58:49.165 [main] INFO  - -------------------------verifyRegisterUserBtn TEST START ---------------------
+16:58:49.166 [main] INFO  - clicking on Create an Account
+16:58:51.064 [main] INFO  - Getting current Url
+16:58:51.069 [main] INFO  - Verifying if the Url matches the Expected Url
+16:58:51.069 [main] INFO  - Matches the expected Url
+16:58:51.069 [main] INFO  - -------------------------verifyRegisterUserBtn TEST End ---------------------
+16:58:57.201 [main] INFO  - -------------------------verifySignInbtn TEST START ---------------------
+16:58:57.201 [main] INFO  - clicking on signin button
+16:58:58.340 [main] INFO  - getting current url
+16:58:58.388 [main] INFO  - Verifying if the url matches the expected url
+16:58:58.389 [main] INFO  - Match Success
+16:58:58.389 [main] INFO  - -------------------------verifySignInbtn TEST End ---------------------
+16:59:06.822 [main] INFO  - -------------------------verifyTitle TEST START ---------------------
+16:59:06.822 [main] INFO  - Getting my Store Title
+16:59:06.831 [main] INFO  - Verifying if StoreTitle is same as expected
+16:59:06.831 [main] INFO  - Verified Store Title
+16:59:06.831 [main] INFO  - -------------------------verifyTitle TEST End ---------------------
+17:13:20.190 [main] INFO  - -------------------------End To End Test TEST START ---------------------
+17:13:20.193 [main] INFO  - click on signIn
+17:13:21.253 [main] INFO  - Getting user and pass from properties
+17:13:23.776 [main] INFO  - Searching the Product
+17:13:25.579 [main] INFO  - Clicking on Desired Product
+17:13:27.396 [main] INFO  - Selecting size
+17:13:27.494 [main] INFO  - Selecting colour
+17:13:27.618 [main] INFO  - Selecting quantity
+17:13:27.734 [main] INFO  - Adding to Cart
+17:13:27.897 [main] INFO  - Proceding to Checkout
+17:13:31.404 [main] INFO  - Choosing Shipping Rate
+17:13:34.930 [main] INFO  - Proceeding To Payments
+17:13:35.082 [main] INFO  - Clicking On Place Order Button
+17:13:38.797 [main] INFO  - Validating Order Successfull message
+17:13:51.902 [main] INFO  - Validation Successfull
+17:13:51.902 [main] INFO  - -------------------------End To End Test TEST End ---------------------
+17:13:59.979 [main] INFO  - -------------------------verifyLogo TEST START ---------------------
+17:14:00.033 [main] INFO  - Verifying if the logo is present
+17:14:00.033 [main] INFO  - Logo is present
+17:14:00.033 [main] INFO  - -------------------------verifyLogo TEST End ---------------------
+17:14:07.808 [main] INFO  - -------------------------verifyRegisterUserBtn TEST START ---------------------
+17:14:07.808 [main] INFO  - clicking on Create an Account
+17:14:09.644 [main] INFO  - Getting current Url
+17:14:09.661 [main] INFO  - Verifying if the Url matches the Expected Url
+17:14:09.661 [main] INFO  - Matches the expected Url
+17:14:09.661 [main] INFO  - -------------------------verifyRegisterUserBtn TEST End ---------------------
+17:14:17.637 [main] INFO  - -------------------------verifySignInbtn TEST START ---------------------
+17:14:17.637 [main] INFO  - clicking on signin button
+17:14:19.303 [main] INFO  - getting current url
+17:14:19.310 [main] INFO  - Verifying if the url matches the expected url
+17:14:19.310 [main] INFO  - Match Success
+17:14:19.310 [main] INFO  - -------------------------verifySignInbtn TEST End ---------------------
+17:14:25.978 [main] INFO  - -------------------------verifyTitle TEST START ---------------------
+17:14:25.978 [main] INFO  - Getting my Store Title
+17:14:25.985 [main] INFO  - Verifying if StoreTitle is same as expected
+17:14:25.985 [main] INFO  - Verified Store Title
+17:14:25.985 [main] INFO  - -------------------------verifyTitle TEST End ---------------------
